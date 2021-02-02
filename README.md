@@ -1,5 +1,5 @@
 # Docker Build Command
-dokcer build -t vendorauth .
+docker build -t vendorauth .
 
 # Docker Run Command
 docker run -d -p 8080:8080 --name vendorauth --link mysql-standalone vendorauth
